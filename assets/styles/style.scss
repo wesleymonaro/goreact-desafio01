@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+@media only screen and (max-width: 768px) {
+    .post-box {
+        width: 70%;
+    }
+}
+
+body {
+    background-color: #E9EBEE;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #4267B2;
+    border-bottom: 1px solid #29487D;
+    height: 50px;
+    display: flex;
+    margin-bottom: 30px;
+    h1 {
+        color: #FFF;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.post-box {
+    max-width: 700px;
+    padding: 30px;
+    border: 1px solid #CCC;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 6px #CCC;
+    border-radius: 4px;
+}
+
+.post-header {
+    display: flex;
+}
+
+.separator {
+    height: 1px;
+    background-color: #EEE;
+}
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.user-info-box {
+    display: inline-grid;
+    width: 80%;
+    padding-left: 30px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    font-size: 16px;
+    color: #666;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.post-time {
+    font-size: 14px;
+    color: #999;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.post-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    font-weight: 400;
+    font-size: 16px;
+}
